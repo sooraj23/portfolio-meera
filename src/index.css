@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@theme {
+  --font-family-sans: 'Space Mono', monospace;
+  --content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"];
+}
