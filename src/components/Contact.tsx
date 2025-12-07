@@ -1,6 +1,10 @@
+import { useFadeInOnScroll } from '../hooks/useFadeInOnScroll'
+
 const Contact = () => {
+  const { ref, isVisible } = useFadeInOnScroll();
+
   return (
-    <section id="contact" className="py-32 px-6">
+    <section id="contact" ref={ref} className={`py-32 px-6 transition-opacity duration-1000 ${isVisible ? 'opacity-100 animate-fade-in' : 'opacity-0'}`}>
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-3xl font-mono mb-12">Contact</h2>
 

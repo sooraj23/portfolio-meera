@@ -1,6 +1,10 @@
+import { useFadeInOnScroll } from '../hooks/useFadeInOnScroll'
+
 const Footer = () => {
+  const { ref, isVisible } = useFadeInOnScroll();
+
   return (
-    <footer className="py-8 px-6 border-t border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900">
+    <footer ref={ref} className={`py-8 px-6 border-t border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 transition-opacity duration-1000 ${isVisible ? 'opacity-100 animate-fade-in' : 'opacity-0'}`}>
       <div className="max-w-4xl mx-auto text-center">
         <p className="text-sm text-gray-600 dark:text-gray-400 font-mono">
           2025 Meera Krishnakumar. All rights reserved.

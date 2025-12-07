@@ -1,8 +1,11 @@
 import meeraAvatar from '../assets/images/meera-Avatar.jpg';
+import { useFadeInOnScroll } from '../hooks/useFadeInOnScroll';
 
 const Hero = () => {
+  const { ref, isVisible } = useFadeInOnScroll();
+
   return (
-    <section id="home" className="text-center py-32 px-6">
+    <section id="home" ref={ref} className={`text-center py-32 px-6 transition-opacity duration-1000 ${isVisible ? 'opacity-100 animate-fade-in' : 'opacity-0'}`}>
       <div className="mb-8">
         <img src={meeraAvatar} alt="Meera's Avatar" className="w-32 h-32 rounded-full mx-auto mb-4 object-cover" />
       </div>
