@@ -13,7 +13,7 @@ const Projects = () => {
       ]
     },
     {
-      title: "Nonparametric Regression and Classification",
+      title: "Non-Parametric Regression and Classification",
       descriptions: [
         "Developed and implemented a k-nearest neighbor (kNN) based algorithm.",
         "Handled mixed covariates including functional, categorical, and continuous predictors.",
@@ -23,7 +23,7 @@ const Projects = () => {
   ]
 
   return (
-    <section id="projects" ref={ref} className={`py-32 px-6 transition-opacity duration-1000 ${isVisible ? 'opacity-100 animate-fade-in' : 'opacity-0'}`}>
+    <section id="projects" ref={ref} className={`py-16 px-6 transition-opacity duration-1000 ${isVisible ? 'opacity-100 animate-fade-in' : 'opacity-0'}`}>
       <h2 className="text-3xl font-mono mb-12 text-center">Projects</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
         {projects.map((project, index) => (

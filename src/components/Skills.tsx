@@ -8,9 +8,9 @@ const Skills = () => {
   ]
 
   return (
-    <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
       {skills.map(skill => (
-        <div key={skill} className="bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 p-3 rounded-lg text-center transition-colors font-mono text-sm">
+        <div key={skill} className="bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 py-5 px-3 rounded-lg text-center transition-colors font-mono text-sm break-words min-w-0 flex items-center justify-center">
           {skill}
         </div>
       ))}

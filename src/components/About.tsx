@@ -8,15 +8,20 @@ const About = () => {
   const { ref, isVisible } = useFadeInOnScroll();
 
   return (
-    <section id="about" ref={ref} className={`py-32 px-6 transition-opacity duration-1000 ${isVisible ? 'opacity-100 animate-fade-in' : 'opacity-0'}`}>
+    <section id="about" ref={ref} className={`py-16 px-6 transition-opacity duration-1000 ${isVisible ? 'opacity-100 animate-fade-in' : 'opacity-0'}`}>
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl font-mono mb-12 text-center">About</h2>
 
         <div className="mb-16 text-center">
           <p className="text-lg leading-relaxed max-w-2xl mx-auto">
-            As a seasoned DevOps Analyst with expertise in AWS cloud platforms, I am proficient in creating scalable architectures,
-            streamlining CI/CD processes, and managing HPC environments. My technical capabilities include container orchestration
-            with Kubernetes and automation using Ansible, complemented by a solid foundation in data analytics and machine learning.
+            AWS Certified Cloud Engineer with expertise in designing scalable, secure, highly available,
+and cost-optimized cloud architectures. Skilled in Infrastructure as Code, configuration
+management, container orchestration, and managing Continuous Integration and
+Continuous Deployment automation. Experienced in high-performance computing
+environments, AWS services, AWS CLI, Linux administration, and DevOps best practices.
+Proven ability to improve operational efficiency, enhance system reliability, optimize cloud
+spending, and collaborate effectively with cross-functional teams to deliver resilient cloud
+solutions.
           </p>
         </div>
 

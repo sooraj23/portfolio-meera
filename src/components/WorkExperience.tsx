@@ -1,16 +1,21 @@
 const WorkExperience = () => {
   const experiences = [
-    "Designed, deployed, and managed scalable AWS cloud platforms, and delivered HPC services/tools such as AWS ParallelCluster.",
-    "Automated patching and configuration workflows for HPC environments using AWS SSM and Ansible, significantly improving operational efficiency.",
-    "Containerized applications using Docker and orchestrated deployments on Amazon EKS to enhance portability, reliability, and scalability.",
-    "Applied Infrastructure as Code (IaC) practices with AWS CloudFormation to standardize and accelerate environment provisioning.",
-    "Monitored system health, performance, and compliance through Amazon CloudWatch and AWS CloudTrail to enable proactive issue detection and faster troubleshooting.",
-    "Managed CI/CD pipelines using Git and GitHub to support consistent, repeatable, and reliable software delivery.",
-    "Configured and optimized VPC networking architectures, including security groups, subnets, and routing, to ensure secure and efficient cloud communication.",
-    "Enforced tag harmonization standards to strengthen resource governance and improve cost allocation visibility.",
-    "Led RDS migrations and engine upgrades for PostgreSQL and MySQL while ensuring high availability and minimal downtime.",
-    "Executed FinOps practices such as resource right-sizing, budgeting, and cost-control strategies to optimize cloud spend.",
-    "Developed robust disaster recovery strategies to safeguard data and achieve defined recovery objectives."
+    "Delivered end-to-end production and application support for AWS workloads; resolved EC2, VPC, storage, and networking issues to maintain high availability and performance.",
+    "Designed and maintained scalable, fault-tolerant Cloud and HPC environments on AWS.",
+    "Streamlined patching and configuration management using AWS Systems Manager (SSM) and Ansible, increasing operational efficiency.",
+    "Containerized applications using Docker and orchestrated deployments on Amazon EKS (Kubernetes) with monitoring and observability integration.",
+    "Provisioned infrastructure using Infrastructure as Code (Terraform, AWS CloudFormation) for standardized and repeatable deployments.",
+    "Implemented CI/CD pipelines using Git and GitHub Actions to automate build, testing, and release processes.",
+    "Monitored infrastructure using Amazon CloudWatch and CloudTrail; reduced MTTR through proactive alerting and log analysis.",
+    "Engineered secure VPC architectures (subnets, route tables, security groups, NAT gateways, load balancers).",
+    "Applied tagging strategy and FinOps best practices to optimize AWS cost and resource utilization.",
+    "Executed Amazon RDS migrations and version upgrades (PostgreSQL, MySQL) with minimal downtime.",
+    "Established disaster recovery solutions aligned with defined RTO/RPO objectives.",
+    "Administered Linux systems including user management, shell scripting, patching, log monitoring, and hardening.",
+    "Developed automation using Python, Bash, AWS Lambda, and VS Code for event-driven and serverless workflows.",
+    "Contributed within Agile/Scrum environments; supported sprint ceremonies and cross-functional releases.",
+    "Created technical architecture documentation, deployment guides, and operational runbooks.",
+    "Managed incidents, service requests, and change tickets via JIRA and ServiceNow (SNOW); ensured SLA adherence."
   ]
 
   return (
